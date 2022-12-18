@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel.LogProvider", "Kernel.LogProvider\Kernel.LogProvider.csproj", "{D180D041-B258-4710-A577-2196287BADDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E24B9C8-3DDB-4AC5-B929-0BD34141564B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-files", "solution-files", "{F03C5CF2-C803-4744-A113-8F3AFE352894}"
+ProjectSection(SolutionItems) = preProject
+	.dockerignore = .dockerignore
+	.gitignore = .gitignore
+	Dockerfile = Dockerfile
+	Readme.md = Readme.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{FE02ACDD-C5DB-4B05-9DB3-0AAEE2C72027}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D180D041-B258-4710-A577-2196287BADDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D180D041-B258-4710-A577-2196287BADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D180D041-B258-4710-A577-2196287BADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D180D041-B258-4710-A577-2196287BADDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE02ACDD-C5DB-4B05-9DB3-0AAEE2C72027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE02ACDD-C5DB-4B05-9DB3-0AAEE2C72027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE02ACDD-C5DB-4B05-9DB3-0AAEE2C72027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE02ACDD-C5DB-4B05-9DB3-0AAEE2C72027}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D180D041-B258-4710-A577-2196287BADDC} = {9E24B9C8-3DDB-4AC5-B929-0BD34141564B}
+		{FE02ACDD-C5DB-4B05-9DB3-0AAEE2C72027} = {9E24B9C8-3DDB-4AC5-B929-0BD34141564B}
+	EndGlobalSection
+EndGlobal
